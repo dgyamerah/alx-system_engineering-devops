@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'ASCII' | rot13 | gpg -d | rpub 'NFPVV' | ebg13 
+tr 'A-Za-z' 'N-ZA-Mn-za-a'
